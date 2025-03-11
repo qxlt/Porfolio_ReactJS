@@ -1,6 +1,10 @@
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Footer from "./Footer";
+import careConnect from "../assets/careConnect.jpg"
+import travelBooking from "../assets/travelBooking.jpg"
+import foodfolio from "../assets/foodfolio.jpg"
+import weatherForecast from "../assets/weatherForecast.jpg"
 
 
 
@@ -9,8 +13,8 @@ function Projects(){
         <div className="bg-pink-200 relative top-14">
             <Header/>
             <Navbar/>
-            <div className="flex flex-col justify-center items-center space-y-5">
-                <div>
+            <div className="flex flex-col justify-center items-center space-y-5 m-5 mb-20">
+                <div className="mb-10">
                     <ul className="timeline">
                         <li>
                             <div className="timeline-start">2021</div>
@@ -85,49 +89,64 @@ function Projects(){
                         </li>
                         </ul>
                 </div >
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
                     <div className="card bg-base-100 w-96 shadow-sm">
                         <figure className="px-10 pt-10">
                             <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={careConnect}
                             alt="Shoes"
                             className="rounded-xl" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Card Title</h2>
+                            <h2 className="card-title">Care Connect</h2>
+                            <p>An appoinment booking system designed for a medical clinic with a portal for patients to book appoinments and doctors and administraters's dashboard to keep things on track</p>
+                            <div className="card-actions">
+                            <button className="btn btn-primary">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 w-96 shadow-sm">
+                        <figure className="px-10 pt-10 ">
+                            <img
+                            src={weatherForecast}
+                            alt="Shoes"
+                            className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Weather Forecast</h2>
                             <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                             <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <button className="btn btn-primary">Details</button>
                             </div>
                         </div>
                     </div>
                     <div className="card bg-base-100 w-96 shadow-sm">
                         <figure className="px-10 pt-10">
                             <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={foodfolio}
                             alt="Shoes"
                             className="rounded-xl" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Card Title</h2>
+                            <h2 className="card-title">Foodfolio</h2>
                             <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                             <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <button className="btn btn-primary">Details</button>
                             </div>
                         </div>
                     </div>
                     <div className="card bg-base-100 w-96 shadow-sm">
                         <figure className="px-10 pt-10">
                             <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={travelBooking}
                             alt="Shoes"
                             className="rounded-xl" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Card Title</h2>
+                            <h2 className="card-title">Book Your Next Travel(BYNT)</h2>
                             <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                             <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <button className="btn btn-primary">Details</button>
                             </div>
                         </div>
                     </div>

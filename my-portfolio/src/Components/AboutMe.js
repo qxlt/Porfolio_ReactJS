@@ -3,6 +3,7 @@ import Header from './Header'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { useEffect, useState } from "react";
+import fstack from '../assets/full-stack.png'
 
 function About(){
     const targetValue = 100;
@@ -48,7 +49,6 @@ function About(){
         <Header/>
         <Navbar/>
         <div className='flex flex-col justify-center items-center'>
-        <h2 className='text-5xl plus-jakarta-sans-600 p-5'>Technologies and Tools</h2>
             <div className='flex h-1/2 p-10 justify-center items-center'> 
                 <div
                     className="radial-progress bg-yellow-300 text-purple-800 border-yellow-300 border-8 font-bold"
@@ -63,9 +63,11 @@ function About(){
                     <div className="chat-bubble plus-jakarta-sans-500 bg-pink-300">I use them to deliver projects!</div>
                 </div>
             </div>
+
+            <h2 className='text-5xl plus-jakarta-sans-600 p-5 mb-4'>Technologies and Tools</h2>
             
         
-        <div className="flex flex-row w-3/4 justify-center items-center space-x-6 bg-white bg-opacity-40 p-3 rounded-lg">
+        <div className="flex flex-row w-3/4 justify-center items-center space-x-6 bg-white bg-opacity-40 p-3 rounded-lg border-b-2 border-pink-400">
             {dropIcons().map(([key, value], index) => (
                 <div key={index} className="flex flex-col items-center">
                     <img src={value} alt={key} className="w-12 h-12 showHidden" />
@@ -75,58 +77,44 @@ function About(){
         </div>
 
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 mt-4'>
-            <div className="card bg-base-100 shadow-lg h-80">
-                <figure className="bg-pink-300 flex h-3/4 items-center justify-center">
-                    <span className="text-2xl font-semibold plus-jakarta-sans-600 text-white">Education</span>
-                </figure>
-                <div className="card-body plus-jakarta-sans-600">
-                    <ul>
-                        <li className='plus-jakarta-sans-600 list-disc'>Computer Programming&Analysis - George Brown College</li>
-                        <li className='plus-jakarta-sans-600 list-disc'>Advanced Diploma</li>
-                        <li className='plus-jakarta-sans-600 list-disc'> 
-                            <a 
-                            target="_blank" 
-                            href="https://drive.google.com/file/d/1p-jGrx8ZsmE_yqemc996EjdFJOO2TB_G/view?usp=sharing" 
-                            className='underline text-blue-600 hover:bg-slate-300 cursor-pointer'>
-                                Transcript
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div className="card bg-base-100 shadow-lg h-80">
-                <figure className="bg-pink-300 flex h-3/4 items-center justify-center">
-                    <span className="text-2xl font-semibold plus-jakarta-sans-600 text-white">What I Bring</span>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 mt-6 mx-32'>
+            <div className="card card-side bg-base-100 shadow-lg h-40">
+                <figure className="bg-pink-500 flex w-1/2 h-full items-center justify-center">
+                    <img className="w-12 h-12" src={fstack} alt="full-stack"></img>
                 </figure>
                 <div className="card-body">
-                    <ul>
-                        <li className='plus-jakarta-sans-600 list-disc'>Passion for clean, efficient code</li>
-                        <li className='plus-jakarta-sans-600 list-disc'>Strong problem-solving and debugging skills</li>
-                        <li className='plus-jakarta-sans-600 list-disc'>Ability to learn and adapt quickly</li>
-                        <li className='plus-jakarta-sans-600 list-disc'>Team player with great communication skills</li>
-                    </ul>
+                    <h2 className='card-title plus-jakarta-sans-600'>Full Stack Development</h2>
+                    <p className='plus-jakarta-sans-500'>Excel in React, building UIs with JS, Node.js, Express, REST, GraphQL, MongoDB, MySQL, and Oracle.</p>
                 </div>
             </div>
 
-            <div className="card bg-base-100 shadow-lg h-80">
-                <figure className="bg-pink-300 flex h-3/4 items-center justify-center">
-                    <span className="text-2xl font-semibold plus-jakarta-sans-600 text-white">Communication</span>
+            <div className="card card-side bg-base-100 shadow-lg h-40">
+                <figure className="bg-pink-500 flex w-1/2 h-full items-center justify-center">
+                    <img className='w-12 h-12' src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons.png" alt="external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons"/>
                 </figure>
                 <div className="card-body">
-                    <ul>
-                        <li className='plus-jakarta-sans-600 list-disc'>Professional in English</li>
-                        <li className='plus-jakarta-sans-600 list-disc'>Professional in Mandarin</li>
-                        <li className='plus-jakarta-sans-600 list-disc line-through'>Spanish(Defrosting)</li>
-                        <li className='plus-jakarta-sans-600 list-disc line-through'>Japanese(Defrosting)</li>
-                    </ul>
+                    <h2 className='card-title plus-jakarta-sans-600'>Mobile Development</h2>
+                    <p className='plus-jakarta-sans-500'>Experienced developing Android mobile apps using React Native and Apple environment using Swift </p>
+                </div>
+            </div>
+
+            <div className="card card-side bg-base-100 shadow-lg h-40">
+                <figure className="bg-pink-500 flex w-1/2 h-full items-center justify-center">
+                    <img className='w-12 h-12' src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-ai-computer-science-flaticons-lineal-color-flat-icons-3.png"/>
+                </figure>
+                <div className="card-body">
+                    <h2 className='card-title plus-jakarta-sans-600'>Machine Learning</h2>
+                    <p className='plus-jakarta-sans-500'>Proficient in using Google Colab and Jupyter for data cleaning, analysis, and training machine learning models</p>
                 </div>
             </div>
             
-            
+        </div>
+        <div className='mt-20'>
+            <h2 className='plus-jakarta-sans-600 text-5xl'>Academic Journey</h2>
+            <div className='card'>
+                
+            </div>
 
-            
         </div>
         </div>
         <Footer/>

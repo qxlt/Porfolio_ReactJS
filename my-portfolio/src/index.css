@@ -104,32 +104,25 @@ video {
 
 }
 
-.card { perspective: 800px;}
-.card__content {transform-style: preserve-3d;}
-.card:hover .card__content {transform: rotateY(.5turn);}
-
-
-.card__front,
-.card__back { backface-visibility: hidden;}
-.card__back{ transform: rotateY(.5turn);}
-
-.linkedin-tab {
-  position: fixed;
-  left: -50px; /* Start hidden outside the screen */
-  top: 75%;
-  transform: translateY(-50%);
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 0 5px 5px 0;
-  transition: right 0.3s ease-in-out;
-  writing-mode: vertical-rl;
-  text-align: center;
-  cursor: pointer;
+.perspective {
+  perspective: 1000px; /* Ensures the flip effect looks correct */
 }
 
-.linkedin-tab:hover {
-  left: 0; /* Slide into view when hovered */
+.transform-style-3d {
+  transform-style: preserve-3d; /* Ensures 3D rotation */
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden; /* Prevents back from showing initially */
+}
+
+.card-back {
+  transform: rotateY(180deg); /* Keeps back side rotated */
+  transition-duration:1000ms;
+}
+
+.group-hover\:rotate-y-180:hover {
+  transform: rotateY(180deg); /* Ensures flip on hover */
+  transition-duration:1000ms;
 }
