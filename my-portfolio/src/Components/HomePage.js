@@ -89,7 +89,7 @@ function HomePage(){
                         </div>
                     </div>
                     <br/>
-                    <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 group perspective">
+                    <div className="relative w-96 h-96 max-sm:w-64 max-sm:h-64 group perspective">
                     <div className="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180">
   
                         <div className="absolute w-full h-full rounded-full border-8 border-pink-400 bg-white flex justify-center items-center card-front">
@@ -99,29 +99,29 @@ function HomePage(){
                 
                         <div className="absolute w-full h-full rounded-full border-8 border-pink-400 bg-blue-100 flex items-center justify-center card-back">
                             <ul className="text-black text-center">
-                                <li className="p-2">
-                                    <h1 className="plus-jakarta-sans-600 text-lg">Qinxi Liu</h1>
+                                <li className="p-2 max-sm:p-0">
+                                    <h1 className="plus-jakarta-sans-600 text-lg max-sm:text-lg">Qinxi Liu</h1>
                                 </li>
-                                <li className="p-2">
-                                    <h5 className="plus-jakarta-sans-600 text-xl bg-pink-400 rounded-full px-4">Full Stack Developer</h5>
+                                <li className="p-2 max-sm:p-0">
+                                    <h5 className="plus-jakarta-sans-600 w-full text-xl max-sm:text-sm bg-pink-400 rounded-full">Full Stack Developer</h5>
                                 </li>
-                                <li className="p-2">
-                                    <p className="plus-jakarta-sans-600 hover:bg-blue-50 rounded-full p-2">
+                                <li className="p-2 max-sm:p-0">
+                                    <p className="plus-jakarta-sans-600 hover:bg-blue-50 rounded-full p-2 max-sm:text-sm">
                                         Email:
-                                        <a href="mailto:liuqx3@gmail.com" className="text-black hover:underline hover:text-blue-500"> liuqx3@gmail.com</a>
+                                        <a href="mailto:liuqx3@gmail.com" className="text-black hover:underline hover:text-blue-500 max-sm:text-sm"> liuqx3@gmail.com</a>
                                     </p>
                                 </li>
-                                <li className="p-2">
-                                    <a className="plus-jakarta-sans-600 hover:bg-blue-50 rounded-full p-2 hover:underline hover:text-blue-500" onClick={copyToClipboard}>
+                                <li className="p-2 max-sm:p-0">
+                                    <a className="plus-jakarta-sans-600 hover:bg-blue-50 rounded-full p-2 hover:underline hover:text-blue-500 max-sm:text-sm" onClick={copyToClipboard}>
                                         Phone: +1(647)-563-8029
                                     </a>
                                 </li>
-                                <li className="p-2">
-                                    <a className="plus-jakarta-sans-600 hover:underline hover:bg-blue-50 p-2 rounded-full hover:text-blue-500" href="https://www.google.com/maps/place/Toronto,+ON">
+                                <li className="p-2 max-sm:p-0">
+                                    <a className="plus-jakarta-sans-600 hover:underline hover:bg-blue-50 p-2 rounded-full hover:text-blue-500 max-sm:text-sm" href="https://www.google.com/maps/place/Toronto,+ON">
                                         Toronto, ON
                                     </a>
                                 </li>
-                                <li className="flex justify-center items-center">
+                                <li className="flex justify-center items-center ">
                                     <a href="https://github.com/qxlt" target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon icon={faGithub} className="m-2 text-2xl hover:text-white hover:bg-zinc-600 rounded-xl"/>
                                     </a>
@@ -131,7 +131,7 @@ function HomePage(){
                                 </li>
                                 <li className="mr-16 ml-16">
                                     <div className="hover:bg-slate-50 hover:bg-opacity-60 hover:rounded-xl">
-                                        <a target="_blank" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view?usp=sharing" className="plus-jakarta-sans-600">Resume</a>
+                                        <a target="_blank" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view?usp=sharing" className="max-sm:text-sm plus-jakarta-sans-600">Resume</a>
                                         <FontAwesomeIcon icon={faDownload} />
                                     </div>
                                 </li>
