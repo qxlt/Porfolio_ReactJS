@@ -126,3 +126,8 @@ video {
   transform: rotateY(180deg); /* Ensures flip on hover */
   transition-duration:1000ms;
 }
+
+.background{
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+}

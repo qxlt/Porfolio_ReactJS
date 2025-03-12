@@ -45,7 +45,7 @@ function About(){
         };
 
     return(
-        <div className='bg-pink-200 h-full relative top-16'>
+        <div className='background h-full relative top-16'>
         <Header/>
         <Navbar/>
         <div className='flex flex-col justify-center items-center'>
@@ -112,7 +112,7 @@ function About(){
         <div className='mt-20'>
             <h2 className='plus-jakarta-sans-600 text-5xl'>Academic Journey</h2>
             <div className='card'>
-                
+
             </div>
 
         </div>

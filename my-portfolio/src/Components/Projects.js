@@ -10,7 +10,7 @@ import weatherForecast from "../assets/weatherForecast.jpg"
 
 function Projects(){
     return(
-        <div className="bg-pink-200 relative top-14">
+        <div className="background relative top-14">
             <Header/>
             <Navbar/>
             <div className="flex flex-col justify-center items-center space-y-5 m-5 mb-20">
