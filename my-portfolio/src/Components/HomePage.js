@@ -47,8 +47,8 @@ function HomePage(){
         <Header />
         <Navbar/>
         <div className='flex-grow p-10 flex flex-row justify-center max-sm:flex-col relative max-sm:top-14'>
-           <div className="w-1/3 max-sm:w-full flex flex-col justify-center items-center ">
-                <h1 className="plus-jakarta-sans-600 text-6xl text-blue-300 text-center">
+           <div className="w-1/3 max-sm:w-full flex flex-col justify-center items-center">
+                <h1 className="plus-jakarta-sans-600 text-6xl text-pink-400 text-center floating">
                     <Typewriter
                         options={{
                         delay: 100
@@ -60,7 +60,7 @@ function HomePage(){
                         }}
                     />
                     </h1>
-                    <h1 className="plus-jakarta-sans-600 text-6xl text-black text-center">
+                    <h1 className="plus-jakarta-sans-600 text-6xl text-black text-center floating">
                     <Typewriter
                         options={{
                         delay: 100
@@ -75,24 +75,23 @@ function HomePage(){
                     </h1>
 
                     <div className="mt-16 grid grid-cols-2 gap-2 w-72 ">
-                        <a className="bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
-                        <a className="bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://github.com/qxlt" target="_blank">Github</a>                  
-                        <a className="bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="" target="_blank">Resume</a>
-                        <a className="bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="" target="_blank">Cover Letter</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://github.com/qxlt" target="_blank">Github</a>                  
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="" target="_blank">Resume</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="" target="_blank">Cover Letter</a>
                     </div>
                     
            </div>
-            <div className="w-1/3 max-sm:w-full max-sm:mt-10 flex flex-col justify-center items-center fade-in">
-                    <div className="chat chat-start pl-24 w-full">
-                        <div className="chat-bubble max-sm:w-1/2 w-3/4 hover:bg-yellow-300 duration-150 text-center rounded-lg bg-yellow-200 plus-jakarta-sans-600">
+            <div className="w-1/3 max-sm:w-full max-sm:mt-10 flex flex-col justify-center items-center fade-in ">
+                    <div className="chat chat-start pl-24 w-full flex justify-center">
+                        <div className="chat-bubble max-sm:w-1/2 w-28 hover:bg-yellow-300 duration-150 text-right rounded-lg bg-yellow-200 plus-jakarta-sans-600">
                             {greeting}!
                         </div>
                     </div>
                     <br/>
                     <div className="relative w-96 h-96 max-sm:w-64 max-sm:h-64 group perspective">
                     <div className="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180">
-  
-                        <div className="absolute w-full h-full rounded-full border-8 border-pink-400 bg-white flex justify-center items-center card-front">
+                        <div className="floating absolute w-full h-full rounded-full border-8 border-pink-400 bg-white flex justify-center items-center card-front">
                             <img src={profile} className="w-full h-full rounded-full object-cover" alt="Profile" />
                         </div>
 
@@ -143,7 +142,7 @@ function HomePage(){
                 </div>
             <div className="w-1/3 max-sm:w-full max-sm:mt-10  flex flex-col justify-center items-center max-sm:mb-14">
                     <h1 className="plus-jakarta-sans-600 text-8xl max-md:text-6xl max-sm:text-4xl text-black fade-in">Qinxi Liu</h1>
-                    <p className="w-96 max-md:w-72 max-sm:w-48 mt-4 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 hover:text-black">
+                    <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-4 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 hover:text-black">
                     <Typewriter
                         options={{
                         delay: 10
@@ -155,7 +154,7 @@ function HomePage(){
                         }}
                     /></p>
 
-                    <p className="w-96 max-md:w-72 max-sm:w-48 mt-2 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 hover:text-black">
+                    <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-2 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 hover:text-black">
                     <Typewriter
                         options={{
                         delay: 10

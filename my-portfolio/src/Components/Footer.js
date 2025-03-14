@@ -3,7 +3,7 @@ import footer_icon from '../assets/footer_icon.png'; // Ensure this is an image 
 function Footer() {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal bg-gray-100 text-neutral-content items-center p-4">
+            <footer className="footer sm:footer-horizontal bg-gray-100 text-neutral-content justify-center items-center p-4">
                 <aside className="grid-flow-col items-center flex">
                     <img 
                         src={footer_icon}
