@@ -46,7 +46,7 @@ function HomePage(){
         <div className="min-h-screen flex flex-col" id="Home">
         <div className='flex-grow p-10 flex flex-row justify-center max-sm:flex-col relative max-sm:top-14'>
            <div className="w-1/3 max-sm:w-full flex flex-col justify-center items-center">
-                <h1 className="plus-jakarta-sans-600 text-6xl text-pink-400 text-center floating">
+                <h1 className="plus-jakarta-sans-600 text-6xl text-white text-center floating">
                     <Typewriter
                         options={{
                         delay: 100
@@ -58,7 +58,7 @@ function HomePage(){
                         }}
                     />
                     </h1>
-                    <h1 className="plus-jakarta-sans-600 text-6xl text-black text-center floating">
+                    <h1 className="plus-jakarta-sans-600 text-6xl text-white text-center floating">
                     <Typewriter
                         options={{
                         delay: 100
@@ -75,8 +75,8 @@ function HomePage(){
                     <div className="mt-16 grid grid-cols-2 gap-2 w-72 ">
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://github.com/qxlt" target="_blank">Github</a>                  
-                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="" target="_blank">Resume</a>
-                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="" target="_blank">Cover Letter</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view" target="_blank">Resume</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://docs.google.com/document/d/1D2p4Qp0SGOi-PUbh6nUCedU5riwfFQNv/edit?usp=sharing&ouid=102037534031454142423&rtpof=true&sd=true" target="_blank">Cover Letter</a>
                     </div>
                     
            </div>

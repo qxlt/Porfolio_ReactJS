@@ -34,9 +34,9 @@ function Navbar({ home, about, project }){
         }
     };
     return(
-        <div className="z-50 w-full fixed top-5 bg-pink-200">
-            <div className="h-14">
-                <div className="hover:bg-pink-100 flex flex-row justify-end items-center">
+        <div className="z-50 w-full fixed top-5 bg-pink-100 h-16">
+            <div className="">
+                <div className="flex flex-row justify-end items-center">
                     <h2 className="w-2/5 text-center max-sm:w-1/4 plus-jakarta-sans-600 text-4xl max-sm:text-lg text-pink-500">Qinxi Liu</h2>
                     <ul className="flex justify-center w-3/5 max-sm:w-3/4 pr-32">
                         <li className="m-2 p-2">

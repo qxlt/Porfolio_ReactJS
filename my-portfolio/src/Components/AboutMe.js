@@ -58,14 +58,14 @@ function About(){
         <div className='flex flex-col justify-center items-center'>
             <div className='flex h-1/2 p-10 justify-center items-center flex-col'> 
                 <h2 className='text-5xl plus-jakarta-sans-600 p-5 mb-4 text-center floating'>Technologies and Tools</h2>
-                <div
+                {/* <div
                     className="max-sm:m-2 radial-progress bg-pink-200 text-green-500 border-pink-200 border-8 font-bold"
                     style={{ "--value": progress,  "--size": "20rem" }}
                     aria-valuenow={progress}
                     role="progressbar"
                     >
                     {progress}%
-                </div>  
+                </div>   */}
                 <div className="chat chat-end mt-5 floating">
                 <div className="chat-image avatar">
                     <div className="w-10 rounded-full border-4 border-white">
