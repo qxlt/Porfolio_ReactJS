@@ -1,20 +1,25 @@
-import Navbar from './Components/Navbar';
-import Header from './Components/Header';
-import HomePage from './Components/HomePage';
-import Footer from "./Components/Footer";
-import About from "./Components/AboutMe"
-import Projects from "./Components/Projects";
+
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Main from "./Components/Main";
+import HomePage from "./Components/HomePage";
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+import AboutMe from "./Components/AboutMe"
+import Projects from "./Components/Projects"
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage/>}> </Route>
-        <Route path="/about" element={<About/>}></Route>
-        <Route path="/projects" element={<Projects/>}></Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="background">
+      <Header/>
+      <Navbar home="Home" about="About" project="Projects"/>
+      <div className="mx-40">
+        <HomePage/>
+        <AboutMe/>
+        <Projects/>
+      </div>
+      <Footer/>
+    </div>
   );
 }
 

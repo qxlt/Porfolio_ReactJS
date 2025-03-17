@@ -43,9 +43,7 @@ function HomePage(){
 
 
     return(
-        <div className="background min-h-screen flex flex-col">
-        <Header />
-        <Navbar/>
+        <div className="min-h-screen flex flex-col" id="Home">
         <div className='flex-grow p-10 flex flex-row justify-center max-sm:flex-col relative max-sm:top-14'>
            <div className="w-1/3 max-sm:w-full flex flex-col justify-center items-center">
                 <h1 className="plus-jakarta-sans-600 text-6xl text-pink-400 text-center floating">
@@ -163,11 +161,10 @@ function HomePage(){
                         typewriter
                             .typeString("Come and get to know me more! We can transform the ideas into real world projects!")
                             .start();
-                        }}/></p>
+  
+                      }}/></p>
             </div>
             </div>
-        <Footer/>
-
         
 
         </div>

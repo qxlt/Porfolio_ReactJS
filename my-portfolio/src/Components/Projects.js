@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import careConnect from "../assets/careConnect.png"
 import travelBooking from "../assets/travelBooking.jpg"
-import foodfolio from "../assets/foodfolio.png"
+import foodfolio from "../assets/foodfolio.jpg"
 import weatherForecast from "../assets/weatherForecast.png"
 import chatApp from "../assets/chatApp.png"
 import taskflow from "../assets/Taskflow.png"
@@ -14,10 +14,9 @@ import gray from  "../assets/gray.png"
 
 function Projects(){
     return(
-        <div className="background relative top-14">
-            <Header/>
-            <Navbar/>
+        <div className="my-24" id="Projects">
             <div className="flex flex-col justify-center items-center space-y-5 m-5 mb-20">
+                <h2 className="plus-jakarta-sans-600 text-5xl">Projects</h2>
                 <div className="mb-10">
                     <ul className="timeline">
                         <li>
@@ -225,7 +224,6 @@ function Projects(){
                 </div>
 
             </div>
-            <Footer/>
 
         </div>
     )

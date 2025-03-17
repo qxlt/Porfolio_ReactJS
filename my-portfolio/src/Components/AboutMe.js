@@ -5,6 +5,7 @@ import Footer from './Footer'
 import { use, useEffect, useState } from "react";
 import fstack from '../assets/full-stack.png'
 import profile from '../assets/qinxi-pic.jpg'
+import wshakespear from "../assets/wshakespear.jpeg"
 
 function About(){
     const targetValue = 100;
@@ -53,9 +54,7 @@ function About(){
         };
 
     return(
-        <div className='background h-full relative top-16'>
-        <Header/>
-        <Navbar/>
+        <div className='h-full' id="About">
         <div className='flex flex-col justify-center items-center'>
             <div className='flex h-1/2 p-10 justify-center items-center flex-col'> 
                 <h2 className='text-5xl plus-jakarta-sans-600 p-5 mb-4 text-center floating'>Technologies and Tools</h2>
@@ -122,9 +121,39 @@ function About(){
                     <p className='plus-jakarta-sans-500'>Proficient in using Google Colab and Jupyter for data cleaning, analysis, and training machine learning models</p>
                 </div>
             </div>
+
+            <div className="card card-side bg-base-100 shadow-lg h-40 w-96 max-sm:w-full">
+                <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
+                    <img className='w-12 h-12' src="https://img.icons8.com/dusk/64/database.png"/>
+                </figure>
+                <div className="card-body w-3/4">
+                    <h2 className='card-title plus-jakarta-sans-600'>Database Management</h2>
+                    <p className='plus-jakarta-sans-500'>Experienced in listed databases with expertise in designing, optimizing, and managing relational and NoSQL databases.</p>
+                </div>
+            </div>
+
+            <div className="card card-side bg-base-100 shadow-lg h-40 w-96 max-sm:w-full">
+                <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
+                    <img className='w-12 h-12' src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-working-daily-routine-wanicon-lineal-color-wanicon.png" alt="external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons"/>
+                </figure>
+                <div className="card-body w-3/4">
+                    <h2 className='card-title plus-jakarta-sans-600'>CI/CD Environment</h2>
+                    <p className='plus-jakarta-sans-500'>Proficient in CI/CD pipelines and Agile methodologies, driving continuous integration, and iterative delivery of software. </p>
+                </div>
+            </div>
+
+            <div className="card card-side bg-base-100 shadow-lg h-40 w-96 max-sm:w-full">
+                <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
+                    <img className='w-12 h-12' src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons.png" alt="external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons"/>
+                </figure>
+                <div className="card-body w-3/4">
+                    <h2 className='card-title plus-jakarta-sans-600'>Microservices&Architecture</h2>
+                    <p className='plus-jakarta-sans-500'>Understanding of microservices architecture, RESTful APIs, and GraphQL for building scalable, distributed systems. </p>
+                </div>
+            </div>
             
         </div>
-        <div className='h-auto w-screen flex flex-col justify-center items-center my-16'>
+        <div className='h-auto w-screen flex flex-col justify-center items-center my-24'>
             <h2 className='plus-jakarta-sans-600 text-5xl text-center'>Academic Journey</h2>
             <div className="chat chat-end my-5 floating">
                 <div className="chat-image avatar">
@@ -166,7 +195,7 @@ function About(){
                     </div>
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className="flex flex-ro justify-between px-5 ">
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-center'>Wireframe
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-center'>Project Outline
                             </h4>
                             <button className={`${rotated_3 ? "rotate-90" : ""} duration-500`} onClick={() => set3Rotated(!rotated_3)}>
                                     <span className="text-pink-500">▶</span>
@@ -239,9 +268,35 @@ function About(){
             </div>
 
         </div>
+        <div className='h-auto w-auto flex flex-col justify-center items-center my-24'>
+            <h2 className='text-5xl plus-jakarta-sans-600'>Philosophy of Career Goal</h2>
+            <div className="chat chat-start my-5 floating">
+                <div className="chat-image avatar">
+                    <div className="w-24 rounded-full border-4 border-white">
+                    <img
+                        alt="Tailwind CSS chat bubble component"
+                        src= {wshakespear}/>
+                    </div>
+                </div>
+                <div className="chat-bubble plus-jakarta-sans-500 bg-white">
+                    <span className='plus-jakarta-sans-500 text-3xl'>"To be, or not to be, that is the question."</span>
+                </div>
+            </div>
+            <div className='w-1/2 py-5 max-sm:w-auto'>
+                <p className='puls-jakarta-sans-500 text-xl text-start text-white'>Inspired by William Shakespeare, one of the greatest poets and playwrights, I often find myself pondering this question.
+
+                This world is intricate and ever-evolving, where there is rarely just one answer to any question. People change, circumstances shift, yet the flow of progress remains constant.
+
+                I strive to break free from limitations, to think beyond conventional boundaries, and to continuously seek solutions to every challenge I face. Our world is beyong binary, but we always need a binary answer to keep us moving like a bionary tree.
+
+                <span className='puls-jakarta-sans-500 text-2xl'><br/>To be or not to be, I remind myself.  </span>    
+                </p>
+            </div>
+
+
+        </div>
         
         </div>
-        <Footer/>
         </div>
     )
 }
