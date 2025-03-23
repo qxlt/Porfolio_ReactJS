@@ -44,9 +44,9 @@ function HomePage(){
 
     return(
         <div className="min-h-screen flex flex-col" id="Home">
-        <div className='flex-grow p-10 flex flex-row justify-center max-sm:flex-col relative max-sm:top-14'>
-           <div className="w-1/3 max-sm:w-full flex flex-col justify-center items-center">
-                <h1 className="plus-jakarta-sans-600 text-6xl text-white text-center floating">
+        <div className='flex-grow flex flex-row justify-center max-sm:flex-col relative max-sm:top-14'>
+           <div className="md:mx-5 lg:mx-10 w-1/3 max-sm:w-full flex flex-col justify-center items-center">
+                <h1 className="plus-jakarta-sans-600 text-7xl text-white text-center floating">
                     <Typewriter
                         options={{
                         delay: 100
@@ -58,7 +58,7 @@ function HomePage(){
                         }}
                     />
                     </h1>
-                    <h1 className="plus-jakarta-sans-600 text-6xl text-white text-center floating">
+                    <h1 className="plus-jakarta-sans-600 text-7xl text-white text-center floating">
                     <Typewriter
                         options={{
                         delay: 100
@@ -72,7 +72,7 @@ function HomePage(){
                     />
                     </h1>
 
-                    <div className="mt-16 grid grid-cols-2 gap-2 w-72 ">
+                    <div className="mt-16 grid grid-cols-2 gap-2 w-full ">
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://github.com/qxlt" target="_blank">Github</a>                  
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view" target="_blank">Resume</a>
@@ -80,9 +80,9 @@ function HomePage(){
                     </div>
                     
            </div>
-            <div className="w-1/3 max-sm:w-full max-sm:mt-10 flex flex-col justify-center items-center fade-in ">
+            <div className="md:mx-5 lg:mx-10 w-1/3 max-sm:w-full max-sm:mt-10 flex flex-col justify-center items-center fade-in">
                     <div className="chat chat-start pl-24 w-full flex justify-center">
-                        <div className="chat-bubble max-sm:w-1/2 w-28 hover:bg-yellow-300 duration-150 text-right rounded-lg bg-yellow-200 plus-jakarta-sans-600">
+                        <div className="chat-bubble max-sm:w-1/2 w-36 hover:bg-yellow-300 duration-150 text-center rounded-lg bg-purple-200 border-r-2 border-purple-400 plus-jakarta-sans-600">
                             {greeting}!
                         </div>
                     </div>
@@ -138,9 +138,9 @@ function HomePage(){
                 </div>
 
                 </div>
-            <div className="w-1/3 max-sm:w-full max-sm:mt-10  flex flex-col justify-center items-center max-sm:mb-14">
+            <div className="md:mx-5 lg:mx-10 w-1/3 max-sm:w-full max-sm:mt-10  flex flex-col justify-center items-center max-sm:mb-14">
                     <h1 className="plus-jakarta-sans-600 text-8xl max-md:text-6xl max-sm:text-4xl text-black fade-in">Qinxi Liu</h1>
-                    <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-4 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 hover:text-black">
+                    <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-4 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 border-4 border-pink-400 hover:text-black">
                     <Typewriter
                         options={{
                         delay: 10
@@ -152,7 +152,7 @@ function HomePage(){
                         }}
                     /></p>
 
-                    <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-2 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 hover:text-black">
+                    <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-2 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 border-4 border-pink-400 hover:text-black">
                     <Typewriter
                         options={{
                         delay: 10
