@@ -57,7 +57,7 @@ function About(){
         <div className='h-full' id="About">
         <div className='flex flex-col justify-center items-center'>
             <div className='flex h-1/2 p-10 justify-center items-center flex-col'> 
-                <h2 className='text-5xl plus-jakarta-sans-600 p-5 mb-4 text-center floating'>Technologies and Tools</h2>
+                <h2 className='text-5xl plus-jakarta-sans-600 p-5 mb-4 text-center floating text-black'>Technologies and Tools</h2>
                 {/* <div
                     className="max-sm:m-2 radial-progress bg-pink-200 text-green-500 border-pink-200 border-8 font-bold"
                     style={{ "--value": progress,  "--size": "20rem" }}
@@ -74,7 +74,7 @@ function About(){
                         src= {profile}/>
                     </div>
                 </div>
-                <div className="chat-bubble bg-white plus-jakarta-sans-500">These are the tools I use to deliver projects! They're still expanding!</div>
+                <div className="chat-bubble bg-white plus-jakarta-sans-500 text-black">These are the tools I use to deliver projects! They're still expanding!</div>
                 </div>
             </div>
 
@@ -96,9 +96,9 @@ function About(){
                 <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
                     <img className="w-12 h-12" src={fstack} alt="full-stack"></img>
                 </figure>
-                <div className="card-body w-3/4">
-                    <h2 className='card-title plus-jakarta-sans-600'>Full Stack Development</h2>
-                    <p className='plus-jakarta-sans-500'>Excel in React, building UIs with JS, Node.js, Express, REST, GraphQL, MongoDB, MySQL, and Oracle.</p>
+                <div className="card-body w-3/4 bg-white">
+                    <h2 className='card-title plus-jakarta-sans-600 text-black'>Full Stack Development</h2>
+                    <p className='plus-jakarta-sans-500 text-black'>Excel in React, building UIs with JS, Node.js, Express, REST, GraphQL, MongoDB, MySQL, and Oracle.</p>
                 </div>
             </div>
 
@@ -106,9 +106,9 @@ function About(){
                 <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
                     <img className='w-12 h-12' src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons.png" alt="external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons"/>
                 </figure>
-                <div className="card-body w-3/4">
-                    <h2 className='card-title plus-jakarta-sans-600'>Mobile Development</h2>
-                    <p className='plus-jakarta-sans-500'>Experienced developing Android mobile apps using React Native and Apple environment using Swift </p>
+                <div className="card-body w-3/4 bg-white">
+                    <h2 className='card-title plus-jakarta-sans-600 text-black'>Mobile Development</h2>
+                    <p className='plus-jakarta-sans-500 text-black'>Experienced developing Android mobile apps using React Native and Apple environment using Swift </p>
                 </div>
             </div>
 
@@ -116,9 +116,9 @@ function About(){
                 <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
                     <img className='w-12 h-12' src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-ai-computer-science-flaticons-lineal-color-flat-icons-3.png"/>
                 </figure>
-                <div className="card-body w-3/4">
-                    <h2 className='card-title plus-jakarta-sans-600'>Machine Learning</h2>
-                    <p className='plus-jakarta-sans-500'>Proficient in using Google Colab and Jupyter for data cleaning, analysis, and training machine learning models</p>
+                <div className="card-body w-3/4 bg-white">
+                    <h2 className='card-title plus-jakarta-sans-600 text-black'>Machine Learning</h2>
+                    <p className='plus-jakarta-sans-500 text-black'>Proficient in using Google Colab and Jupyter for data cleaning, analysis, and training machine learning models</p>
                 </div>
             </div>
 
@@ -126,9 +126,9 @@ function About(){
                 <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
                     <img className='w-12 h-12' src="https://img.icons8.com/dusk/64/database.png"/>
                 </figure>
-                <div className="card-body w-3/4">
-                    <h2 className='card-title plus-jakarta-sans-600'>Database Management</h2>
-                    <p className='plus-jakarta-sans-500'>Experienced in listed databases with expertise in designing, optimizing, and managing relational and NoSQL databases.</p>
+                <div className="card-body w-3/4 bg-white">
+                    <h2 className='card-title plus-jakarta-sans-600 text-black'>Database Management</h2>
+                    <p className='plus-jakarta-sans-500 text-black'>Experienced in listed databases with expertise in designing, optimizing, and managing relational and NoSQL databases.</p>
                 </div>
             </div>
 
@@ -136,9 +136,9 @@ function About(){
                 <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
                     <img className='w-12 h-12' src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-working-daily-routine-wanicon-lineal-color-wanicon.png" alt="external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons"/>
                 </figure>
-                <div className="card-body w-3/4">
-                    <h2 className='card-title plus-jakarta-sans-600'>CI/CD Environment</h2>
-                    <p className='plus-jakarta-sans-500'>Proficient in CI/CD pipelines and Agile methodologies, driving continuous integration, and iterative delivery of software. </p>
+                <div className="card-body w-3/4 bg-white">
+                    <h2 className='card-title plus-jakarta-sans-600 text-black'>CI/CD Environment</h2>
+                    <p className='plus-jakarta-sans-500 text-black'>Proficient in CI/CD pipelines and Agile methodologies, driving continuous integration, and iterative delivery of software. </p>
                 </div>
             </div>
 
@@ -146,15 +146,15 @@ function About(){
                 <figure className="bg-pink-500 flex w-1/4 h-full items-center justify-center">
                     <img className='w-12 h-12' src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons.png" alt="external-mobile-app-ux-and-ui-flatart-icons-lineal-color-flatarticons"/>
                 </figure>
-                <div className="card-body w-3/4">
-                    <h2 className='card-title plus-jakarta-sans-600'>Microservices&Architecture</h2>
-                    <p className='plus-jakarta-sans-500'>Understanding of microservices architecture, RESTful APIs, and GraphQL for building scalable, distributed systems. </p>
+                <div className="card-body w-3/4 bg-white">
+                    <h2 className='card-title plus-jakarta-sans-600 text-black'>Microservices&Architecture</h2>
+                    <p className='plus-jakarta-sans-500 text-black'>Understanding of microservices architecture, RESTful APIs, and GraphQL for building scalable, distributed systems. </p>
                 </div>
             </div>
             
         </div>
         <div className='h-auto w-screen flex flex-col justify-center items-center my-24'>
-            <h2 className='plus-jakarta-sans-600 text-5xl text-center'>Academic Journey</h2>
+            <h2 className='plus-jakarta-sans-600 text-5xl text-center text-black'>Academic Journey</h2>
             <div className="chat chat-end my-5 floating">
                 <div className="chat-image avatar">
                     <div className="w-10 rounded-full border-4 border-white">
@@ -163,46 +163,46 @@ function About(){
                         src= {profile}/>
                     </div>
                 </div>
-                <div className="chat-bubble plus-jakarta-sans-500 bg-white w-1/2">My academic journey is highlighted by full-stack development, mobile application design, machine learning, and internet analysis.</div>
+                <div className="chat-bubble plus-jakarta-sans-500 bg-white w-1/2 ">My academic journey is highlighted by full-stack development, mobile application design, machine learning, and internet analysis.</div>
             </div>
             <div className='flex flex-row w-full justify-center '>
             <div className="flex flex-col bg-pink-200 w-1/4 justify-start mt-10 p-6 rounded-xl h-auto mx-5">
-                <h3 className="plus-jakarta-sans-600 text-4xl self-center m-3 mb-2">Capstone Project</h3>
+                <h3 className="plus-jakarta-sans-600 text-4xl self-center m-3 mb-2 text-black">Capstone Project</h3>
                 <hr className='border-2 border-pink-300'/>
                 <div className="flex flex-col py-3">
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className='flex flex-row px-5 justify-between'> 
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-start'>Project Summary</h4>
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-start text-black'>Project Summary</h4>
                             <button className={`${rotated_1 ? "rotate-90" : ""} duration-500`} onClick={() => set1Rotated(!rotated_1)}>
                                 <span className="text-pink-500">▶</span>
                             </button>
                         </div>
                         <div className={`plus-jakarta-sans-400 px-5 py-2 ${rotated_1? "block": "hidden"}`}>
-                            <p className='plus-jakarta-sans-500'>Developed a full-stack medical appointment booking system named "CareConnect" to streamline scheduling between patients and healthcare providers. Implemented authentication, real-time notifications.</p>
+                            <p className='plus-jakarta-sans-500 text-black'>Developed a full-stack medical appointment booking system named "CareConnect" to streamline scheduling between patients and healthcare providers. Implemented authentication, real-time notifications.</p>
                         </div>
                     </div>
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className="flex flex-row justify-between px-5">
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-start'>Technology Stack
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-start text-black'>Technology Stack
                             </h4>
                             <button className={`${rotated_2 ? "rotate-90" : ""} duration-500`} onClick={() => set2Rotated(!rotated_2)}>
                                     <span className="text-pink-500">▶</span>
                             </button>
                         </div>
                         <div className={`plus-jakarta-sans-400 px-5 py-2 ${rotated_2? "block": "hidden"}`}>
-                            <p className='plus-jakarta-sans-500'>Built using the MERN stack: React.js, Node.js, Express.js, and MongoDB with TailwindCSS on top, ensuring a full-stack JavaScript-based development approach.</p>
+                            <p className='plus-jakarta-sans-500 text-black'>Built using the MERN stack: React.js, Node.js, Express.js, and MongoDB with TailwindCSS on top, ensuring a full-stack JavaScript-based development approach.</p>
                         </div>
                     </div>
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className="flex flex-ro justify-between px-5 ">
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-center'>Project Outline
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-center text-black'>Project Outline
                             </h4>
                             <button className={`${rotated_3 ? "rotate-90" : ""} duration-500`} onClick={() => set3Rotated(!rotated_3)}>
                                     <span className="text-pink-500">▶</span>
                             </button>
                         </div>
                         <div className={`plus-jakarta-sans-400 px-5 py-2 ${rotated_3? "block": "hidden"}`}>
-                            <p className='plus-jakarta-sans-500'>Designed using Figma, focusing on user-friendly navigation and responsive UI components for doctor, admin and patients.</p>
+                            <p className='plus-jakarta-sans-500 text-black'>Designed using Figma, focusing on user-friendly navigation and responsive UI components for doctor, admin and patients.</p>
                         </div>
                     </div>
                     <p className='text-center'>*To view the files, Go&nbsp;
@@ -214,18 +214,18 @@ function About(){
                 </div>
             </div>
             <div className="flex flex-col bg-pink-200 w-1/4 justify-start mt-10 p-6 rounded-xl h-auto mx-5">
-                <h3 className="plus-jakarta-sans-600 text-4xl self-center m-3 mb-2">Academic Records</h3>
+                <h3 className="plus-jakarta-sans-600 text-4xl self-center m-3 mb-2 text-black">Academic Records</h3>
                 <hr className='border-2 border-pink-300'/>
                 <div className="flex flex-col py-3">
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className='flex flex-row px-5 justify-between'> 
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-start'>Transcript</h4>
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-start text-black'>Transcript</h4>
                             <button className={`${rotated_4 ? "rotate-90" : ""} duration-500`} onClick={() => set4Rotated(!rotated_4)}>
                                 <span className="text-pink-500">▶</span>
                             </button>
                         </div>
                         <div className={`plus-jakarta-sans-400 px-5 py-2 ${rotated_4? "block": "hidden"}`}>
-                            <p className='plus-jakarta-sans-500'>GPA 3.81. To obtain the unofficial &nbsp;
+                            <p className='plus-jakarta-sans-500 text-black'>GPA 3.81. To obtain the unofficial &nbsp;
                                 <a className='underline text-blue-500 cursor-pointer' 
                                 href="https://drive.google.com/file/d/1p-jGrx8ZsmE_yqemc996EjdFJOO2TB_G/view?usp=drive_link" 
                                 target='_blank'>
@@ -236,15 +236,15 @@ function About(){
                     </div>
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className="flex flex-row justify-between px-5">
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-start'>Dean's List Honour
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-start text-black'>Dean's List Honour
                             </h4>
                             <button className={`${rotated_5 ? "rotate-90" : ""} duration-500`} onClick={() => set5Rotated(!rotated_5)}>
                                     <span className="text-pink-500">▶</span>
                             </button>
                         </div>
                         <div className={`plus-jakarta-sans-400 px-5 py-2 ${rotated_5? "block": "hidden"}`}>
-                            <p className='plus-jakarta-sans-500'>Achieved the Dean's Honour List every semester for maintaining a GPA above 3.5 from School of Information&Technology.</p>
-                            <p className='plus-jakarta-sans-500'>To obtain the record of &nbsp;<a 
+                            <p className='plus-jakarta-sans-500 text-black'>Achieved the Dean's Honour List every semester for maintaining a GPA above 3.5 from School of Information&Technology.</p>
+                            <p className='plus-jakarta-sans-500 text-black'>To obtain the record of &nbsp;<a 
                             className='text-blue-400 underline'
                             target='_blank'
                             href="https://drive.google.com/file/d/1UMdwOkHOWNwxd-0ZZ3gzH51-Im_C8L6f/view?usp=drive_link">
@@ -253,14 +253,14 @@ function About(){
                     </div>
                     <div className="flex flex-col m-3 bg-pink-100 rounded-xl py-4">
                         <div className="flex flex-ro justify-between px-5 ">
-                            <h4 className='plus-jakarta-sans-500 text-2xl self-center'> On-Campus Jobs
+                            <h4 className='plus-jakarta-sans-500 text-2xl self-center text-black'> On-Campus Jobs
                             </h4>
                             <button className={`${rotated_6 ? "rotate-90" : ""} duration-500`} onClick={() => set6Rotated(!rotated_6)}>
                                     <span className="text-pink-500">▶</span>
                             </button>
                         </div>
                         <div className={`plus-jakarta-sans-400 px-5 py-2 ${rotated_6? "block": "hidden"}`}>
-                            <p className='plus-jakarta-sans-500'>Dedicated in contrubuting a learning positive environment by joining Lab Monitor team to help students find a friendly community to study.</p>
+                            <p className='plus-jakarta-sans-500 text-black'>Dedicated in contrubuting a learning positive environment by joining Lab Monitor team to help students find a friendly community to study.</p>
                         </div>
                     </div>
                 </div>
@@ -269,7 +269,7 @@ function About(){
 
         </div>
         <div className='h-auto w-auto flex flex-col justify-center items-center my-24'>
-            <h2 className='text-5xl plus-jakarta-sans-600'>Philosophy of Career Goal</h2>
+            <h2 className='text-5xl plus-jakarta-sans-600 text-black'>Philosophy of Career Goal</h2>
             <div className="chat chat-start my-5 floating">
                 <div className="chat-image avatar">
                     <div className="w-24 rounded-full border-4 border-white">
@@ -279,7 +279,7 @@ function About(){
                     </div>
                 </div>
                 <div className="chat-bubble plus-jakarta-sans-500 bg-white">
-                    <span className='plus-jakarta-sans-500 text-3xl'>"To be, or not to be, that is the question."</span>
+                    <span className='plus-jakarta-sans-500 text-3xl text-black'>"To be, or not to be, that is the question."</span>
                 </div>
             </div>
             <div className='w-1/2 py-5 max-sm:w-auto'>

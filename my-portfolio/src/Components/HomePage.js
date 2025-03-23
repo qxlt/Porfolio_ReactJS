@@ -75,16 +75,16 @@ function HomePage(){
                     </h1>
 
                     <div className="mt-16 grid grid-cols-2 gap-2 w-full">
-                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
-                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://github.com/qxlt" target="_blank">Github</a>                  
-                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view" target="_blank">Resume</a>
-                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://docs.google.com/document/d/1D2p4Qp0SGOi-PUbh6nUCedU5riwfFQNv/edit?usp=sharing&ouid=102037534031454142423&rtpof=true&sd=true" target="_blank">Cover Letter</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600 text-black" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600 text-black" href="https://github.com/qxlt" target="_blank">Github</a>                  
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600 text-black" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view" target="_blank">Resume</a>
+                        <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600 text-black" href="https://docs.google.com/document/d/1D2p4Qp0SGOi-PUbh6nUCedU5riwfFQNv/edit?usp=sharing&ouid=102037534031454142423&rtpof=true&sd=true" target="_blank">Cover Letter</a>
                     </div>
                     
            </div>
             <div className="md:mx-5 lg:mx-10 w-1/3 max-sm:w-full max-sm:mt-10 flex flex-col justify-center items-center fade-in">
                     <div className="chat chat-start pl-24 w-full flex justify-center">
-                        <div className="chat-bubble max-sm:w-1/2 w-36 hover:bg-yellow-300 duration-150 text-center rounded-lg bg-purple-200 border-r-2 border-purple-400 plus-jakarta-sans-600">
+                        <div className="text-black chat-bubble max-sm:w-1/2 w-36 hover:bg-yellow-300 duration-150 text-center rounded-lg bg-purple-200 border-r-2 border-purple-400 plus-jakarta-sans-600">
                             {greeting}!
                         </div>
                     </div>

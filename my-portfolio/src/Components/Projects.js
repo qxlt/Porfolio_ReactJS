@@ -16,16 +16,16 @@ function Projects(){
     return(
         <div className="my-24" id="Projects">
             <div className="flex flex-col justify-center items-center space-y-5 m-5 mb-20">
-                <h2 className="plus-jakarta-sans-600 text-5xl">Projects</h2>
+                <h2 className="plus-jakarta-sans-600 text-5xl text-black">Projects</h2>
                 <div className="mb-10">
                     <ul className="timeline">
                         <li>
-                            <div className="timeline-start">2021</div>
+                            <div className="timeline-start text-black">2021</div>
                             <div className="timeline-middle">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
-                                fill="currentColor"
+                                fill="black"
                                 className="h-5 w-5">
                                 <path
                                 fillRule="evenodd"
@@ -33,17 +33,17 @@ function Projects(){
                                 clipRule="evenodd" />
                             </svg>
                             </div>
-                            <div className="timeline-end timeline-box">Started to Acknowldege the Basic Logic</div>
+                            <div className="timeline-end timeline-box text-black bg-white">Started to Acknowldege the Basic Logic</div>
                             <hr />
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-start">2022</div>
+                            <div className="timeline-start text-black">2022</div>
                             <div className="timeline-middle">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
-                                fill="currentColor"
+                                fill="black"
                                 className="h-5 w-5">
                                 <path
                                 fillRule="evenodd"
@@ -51,17 +51,17 @@ function Projects(){
                                 clipRule="evenodd" />
                             </svg>
                             </div>
-                            <div className="timeline-end timeline-box">First Project</div>
+                            <div className="timeline-end timeline-box text-black bg-white">First Project</div>
                             <hr />
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-start">2024</div>
+                            <div className="timeline-start text-black">2024</div>
                             <div className="timeline-middle">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
-                                fill="currentColor"
+                                fill="black"
                                 className="h-5 w-5">
                                 <path
                                 fillRule="evenodd"
@@ -69,17 +69,17 @@ function Projects(){
                                 clipRule="evenodd" />
                             </svg>
                             </div>
-                            <div className="timeline-end timeline-box">First Real World Project</div>
+                            <div className="timeline-end timeline-box text-black bg-white">First Real World Project</div>
                             <hr />
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-start">2025~</div>
+                            <div className="timeline-start text-black">2025~</div>
                             <div className="timeline-middle">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
-                                fill="currentColor"
+                                fill="black"
                                 className="h-5 w-5">
                                 <path
                                 fillRule="evenodd"
@@ -87,7 +87,7 @@ function Projects(){
                                 clipRule="evenodd" />
                             </svg>
                             </div>
-                            <div className="timeline-end timeline-box">Ready for the Future...</div>
+                            <div className="timeline-end timeline-box text-black bg-white">Ready for the Future...</div>
                             <hr />
                         </li>
                         </ul>
@@ -106,8 +106,8 @@ function Projects(){
                             </div>
                         </figure>
                         <div className="card-body items-center text-start">
-                            <h2 className="card-title plus-jakarta-sans-600">Care Connect</h2>
-                            <p className="plus-jakarta-sans-500">An appoinment booking system designed for a medical clinic with a portal for patients to book appoinments and doctors and administraters's dashboard to keep things on track</p>
+                            <h2 className="card-title plus-jakarta-sans-600 text-black">Care Connect</h2>
+                            <p className="plus-jakarta-sans-500 text-black">An appoinment booking system designed for a medical clinic with a portal for patients to book appoinments and doctors and administraters's dashboard to keep things on track</p>
                         </div>
                     </div>
                     <div className="card bg-base-100 w-96 shadow-sm  bg-pink-100">
@@ -123,8 +123,8 @@ function Projects(){
                             </div>
                         </figure>
                         <div className="card-body items-center text-start">
-                            <h2 className="card-title plus-jakarta-sans-600">Weather Forecast</h2>
-                            <p className="plus-jakarta-sans-500">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                            <h2 className="card-title plus-jakarta-sans-600 text-black">Weather Forecast</h2>
+                            <p className="plus-jakarta-sans-500 text-black">A card component has a figure, a body part, and inside body there are title and actions parts</p>
                         </div>
                     </div>
                     <div className="card bg-base-100 w-96 shadow-sm bg-pink-100">
@@ -141,8 +141,8 @@ function Projects(){
                             </div>
                         </figure>
                         <div className="card-body items-center text-start">
-                            <h2 className="card-title plus-jakarta-sans-600">Foodfolio</h2>
-                            <p className="plus-jakarta-sans-500">A mobile (for IOS users) app that allows users to leave a rating the restaurants on the list and navigates to the location.</p>
+                            <h2 className="card-title plus-jakarta-sans-600 text-black">Foodfolio</h2>
+                            <p className="plus-jakarta-sans-500 text-black">A mobile (for IOS users) app that allows users to leave a rating the restaurants on the list and navigates to the location.</p>
                   
                         </div>
                     </div>
@@ -160,8 +160,8 @@ function Projects(){
                             </div>
                         </figure>
                         <div className="card-body items-center text-start">
-                            <h2 className="card-title plus-jakarta-sans-600">Book Your Next Travel(BYNT)</h2>
-                            <p className="plus-jakarta-sans-500">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                            <h2 className="card-title plus-jakarta-sans-600 text-black">Book Your Next Travel(BYNT)</h2>
+                            <p className="plus-jakarta-sans-500 text-black">A card component has a figure, a body part, and inside body there are title and actions parts</p>
                     
                         </div>
                     </div>
@@ -178,8 +178,8 @@ function Projects(){
                             </div>
                         </figure>
                         <div className="card-body items-center text-start">
-                            <h2 className="card-title plus-jakarta-sans-600">GroupChatting</h2>
-                            <p className="plus-jakarta-sans-500">Socket IO based Chat Room for people who have the same hobby and topic to chat with.</p>
+                            <h2 className="card-title plus-jakarta-sans-600 text-black">GroupChatting</h2>
+                            <p className="plus-jakarta-sans-500 text-black">Socket IO based Chat Room for people who have the same hobby and topic to chat with.</p>
             
                         </div>
                     </div>
@@ -196,8 +196,8 @@ function Projects(){
                             </div>
                         </figure>
                         <div className="card-body items-center text-start">
-                            <h2 className="card-title plus-jakarta-sans-600">Taskflow</h2>
-                            <p className="plus-jakarta-sans-500">Taskflow allows you to add reminder to the app and make it a to-do list. You can simply cross over the thing you finished by clicking the item.</p>
+                            <h2 className="card-title plus-jakarta-sans-600 text-black">Taskflow</h2>
+                            <p className="plus-jakarta-sans-500 text-black">Taskflow allows you to add reminder to the app and make it a to-do list. You can simply cross over the thing you finished by clicking the item.</p>
                      
                         </div>
                     </div>
