@@ -1,6 +1,6 @@
 
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Main from "./Components/Main";
+
 import HomePage from "./Components/HomePage";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
@@ -13,7 +13,7 @@ function App() {
     <div className="background">
       <Header/>
       <Navbar home="Home" about="About" project="Projects"/>
-      <div className="mx-40">
+      <div>
         <HomePage/>
         <AboutMe/>
         <Projects/>

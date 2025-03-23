@@ -43,13 +43,14 @@ function HomePage(){
 
 
     return(
-        <div className="min-h-screen flex flex-col" id="Home">
+        <div className="min-h-screen mx-5 flex flex-col" id="Home">
         <div className='flex-grow flex flex-row justify-center max-sm:flex-col relative max-sm:top-14'>
            <div className="md:mx-5 lg:mx-10 w-1/3 max-sm:w-full flex flex-col justify-center items-center">
-                <h1 className="plus-jakarta-sans-600 text-7xl text-white text-center floating">
+                <h1 className="w-full plus-jakarta-sans-600 text-7xl text-white text-center floating">
                     <Typewriter
                         options={{
-                        delay: 100
+                        delay: 100,
+                        cursor: ""
                         }}
                         onInit={(typewriter) => {
                         typewriter
@@ -58,10 +59,11 @@ function HomePage(){
                         }}
                     />
                     </h1>
-                    <h1 className="plus-jakarta-sans-600 text-7xl text-white text-center floating">
+                    <h1 className="w-full plus-jakarta-sans-600 text-7xl text-white text-center floating">
                     <Typewriter
                         options={{
-                        delay: 100
+                        delay: 100,
+                        cursor: ""
                         }}
                         onInit={(typewriter) => {
                         typewriter
@@ -72,7 +74,7 @@ function HomePage(){
                     />
                     </h1>
 
-                    <div className="mt-16 grid grid-cols-2 gap-2 w-full ">
+                    <div className="mt-16 grid grid-cols-2 gap-2 w-full">
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://www.linkedin.com/in/qinxiliu" target="_blank">Linkedin</a>
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://github.com/qxlt" target="_blank">Github</a>                  
                         <a className="cursor-pointer bg-pink-300 border-4 border-white text-center p-3 rounded-lg hover:border-pink-300 hover:bg-white duration-300 plus-jakarta-sans-600" href="https://drive.google.com/file/d/1HITr-XyoRlFHydZqOgDp5agANYPPs-lN/view" target="_blank">Resume</a>
@@ -143,7 +145,8 @@ function HomePage(){
                     <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-4 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 border-4 border-pink-400 hover:text-black">
                     <Typewriter
                         options={{
-                        delay: 10
+                        delay: 10,
+                        cursor: ""
                         }}
                         onInit={(typewriter) => {
                         typewriter
@@ -155,7 +158,8 @@ function HomePage(){
                     <p className="floating w-96 max-md:w-72 max-sm:w-48 mt-2 plus-jakarta-sans-500 text-xl p-2 text-black rounded-lg bg-slate-50 border-4 border-pink-400 hover:text-black">
                     <Typewriter
                         options={{
-                        delay: 10
+                        delay: 10,
+                        cursor: ""
                         }}
                         onInit={(typewriter) => {
                         typewriter
